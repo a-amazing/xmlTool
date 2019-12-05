@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflowProcess productVersion="6.1" schemaVersion="6.0">
+    <processHeader>
+        <trest>111</trest>
+    </processHeader>
+    <transitions>
+        <transition>
+            <from>autoActivity1</from>
+            <to>manualActivity</to>
+        </transition>
+    </transitions>
+    <activities>
+        <activity>
+            <activityId>finishActivity</activityId>
+            <activityName>结束</activityName>
+            <activityType>finish</activityType>
+        </activity>
+    </activities>
+</workflowProcess>
